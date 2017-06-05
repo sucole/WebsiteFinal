@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav { background-color:white;
+      width: 100%;
+	  height: 127px;
+	  text-align:center;
+	}
+ul{list-style-type:none;
+margin:0;
+	}	
+	
+li {
+   	display:inline-block;
+	line-height:127px;
+	font-size:30px;
+	padding: 0 30px;
+	font-family: 'Satisfy', cursive;
+	}	
+a:link {
+	text-decoration:none;
+	color:black;
+	}
+	
+a:visited{
+	color:black
+	}
+a:hover{
+	color:#FDED9A
+	}
+h1 {
+	position:fixed;
+	margin-top:50px;
+	margin-right:500px;
+	margin-left: 70px;
+	}
+	.yellow{
+	margin-top:50px;
+	width:100%;
+	height:400px;
+	background-color:#FDED9A;
+	opacity:0.5;
+	}
+	
+	.home{
+		position:absolute;
+		top:200px;
+		left:45px;
+		
+		}
+	.home h2 {
+	font-family: 'Satisfy', cursive;
+	}
+	.home h3{
+		
+		width:300px;
+		font-family: 'Sorts Mill Goudy', serif;
+		
+	
+	}
+	
+.beekeeper img{
+	position:absolute;
+	top:220px;
+	left:370px;
+}	
+#header {
+	position:absolute;
+	top:230px;
+	left:40px;
+	font-family:'Sorts Mill Goudy', serif;
+	font-size:18px;
+	}
+	
+footer {
+
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+	}
+	
+
+
+	/*Start About Page Styling*/
+	
+	figure img{
+		display:block;
+		margin:0 auto;
+		
+		}
+
+		
+		
+	article h4{
+		text-align:center;
+		font-family: 'Satisfy', cursive;
+		
+		}
+		article h5{
+		text-align:center;
+		font-family: 'Satisfy', cursive;
+		
+		}
+		
+	article p {
+		display:block;
+		margin: 0 auto;
+		width:600px;
+		font-family:'Sorts Mill Goudy', serif;
+		}	
+	
+.article {
+	background-color:#FFFEB4;
+	width:900px;
+	display: block;
+	margin:0 auto;
+	margin-top:50px;
+	
+	}
+	
+	/*Start Contact Page Styling*/
+	
