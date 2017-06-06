@@ -120,4 +120,10 @@ footer {
 	}
 	
 	/*Start Contact Page Styling*/
-	
+	/*.contact {
+		float:left;
+		}*/
+	.contact ul li{
+	font-family:'Sorts Mill Goudy', serif;
+	font-size:25px;
+		}
