@@ -6,26 +6,26 @@ nav { background-color:white;
 	  height: 127px;
 	  text-align:center;
 	}
-ul{list-style-type:none;
+nav ul{list-style-type:none;
 margin:0;
 	}	
 	
-li {
+nav li {
    	display:inline-block;
 	line-height:127px;
 	font-size:30px;
 	padding: 0 30px;
 	font-family: 'Satisfy', cursive;
 	}	
-a:link {
+nav a:link {
 	text-decoration:none;
 	color:black;
 	}
 	
-a:visited{
+nav a:visited{
 	color:black
 	}
-a:hover{
+nav a:hover{
 	color:#FDED9A
 	}
 h1 {
@@ -103,6 +103,7 @@ footer {
 		
 		}
 		
+		
 	article p {
 		display:block;
 		margin: 0 auto;
@@ -120,10 +121,39 @@ footer {
 	}
 	
 	/*Start Contact Page Styling*/
-	/*.contact {
-		float:left;
+	.contact{
+	float:left;
+	width:300px;
+		}
+	h4{
+	font-family:'Satisfy', cursive;
+	font-size:30px;
+		}
+	/*.contact p{
+		font-family:'Sorts Mill Goudy', serif;
 		}*/
 	.contact ul li{
 	font-family:'Sorts Mill Goudy', serif;
-	font-size:25px;
+	font-size:20px;
+	list-style-type:none;
+		}
+	.button {
+    background-color:#FDED9A;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+	border-radius: 4px;
+	clear:both;
+		}	
+	.ttt{
+	margin:0px;
+	padding:0px;
+	font-family:'Sorts Mill Goudy', serif;
+	width:300px;
+		}
+	.wrapper {
+		width:100%;
 		}
