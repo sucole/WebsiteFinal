@@ -42,16 +42,16 @@ h1 {
 	opacity:0.5;
 	}
 	
-	.home{
+.home{
 		position:absolute;
 		top:200px;
 		left:45px;
 		
 		}
-	.home h2 {
+.home h2 {
 	font-family: 'Satisfy', cursive;
 	}
-	.home h3{
+.home h3{
 		
 		width:300px;
 		font-family: 'Sorts Mill Goudy', serif;
@@ -92,7 +92,7 @@ footer {
 
 		
 		
-	article h4{
+	/*article h4{
 		text-align:center;
 		font-family: 'Satisfy', cursive;
 		
@@ -102,14 +102,14 @@ footer {
 		font-family: 'Satisfy', cursive;
 		
 		}
+		*/
 		
-		
-	article p {
+	/*article p {
 		display:block;
 		margin: 0 auto;
 		width:600px;
 		font-family:'Sorts Mill Goudy', serif;
-		}	
+		}	*/
 	
 .article {
 	background-color:#FFFEB4;
