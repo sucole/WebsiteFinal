@@ -1,13 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+      /*start Home page styling*/
+
 nav { background-color:white;
       width: 100%;
 	  height: 127px;
 	  text-align:center;
 	}
-nav ul{list-style-type:none;
-margin:0;
+nav ul{
+	list-style-type:none;
+    margin:0;
 	}	
 	
 nav li {
@@ -34,35 +37,33 @@ h1 {
 	margin-right:500px;
 	margin-left: 70px;
 	}
-	.yellow{
+.yellow{
 	margin-top:50px;
+	margin-bottom:100px;
 	width:100%;
 	height:400px;
-	background-color:#FDED9A;
-	opacity:0.5;
+	background-color:lemonchiffon;
 	}
 	
 .home{
-		position:absolute;
-		top:200px;
-		left:45px;
+	position:absolute;
+	top:200px;
+	left:45px;
 		
 		}
 .home h2 {
 	font-family: 'Satisfy', cursive;
-	}
-.home h3{
-		
-		width:300px;
-		font-family: 'Sorts Mill Goudy', serif;
-		
 	
+	}
+.home h3{		
+	width:300px;
+	font-family: 'Sorts Mill Goudy', serif;
 	}
 	
 .beekeeper img{
 	position:absolute;
 	top:220px;
-	left:370px;
+	left:380px;
 }	
 #header {
 	position:absolute;
@@ -73,74 +74,87 @@ h1 {
 	}
 	
 footer {
-
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-  font-family: 'Sorts Mill Goudy', serif;
-	}
+     padding: 1rem;
+	 background-color: #efefef;
+	 text-align: center;
+     font-family: 'Sorts Mill Goudy', serif;
+		}
 	
-
-
-	/*Start About Page Styling*/
+	/*start About page styling*/
 	
-	figure img{
-		display:block;
-		margin:0 auto;
+figure img{
+	display:block;
+	margin:0 auto;
 		
 		}
 
 		
-		
-	/*article h4{
-		text-align:center;
-		font-family: 'Satisfy', cursive;
-		
-		}
-		article h5{
-		text-align:center;
-		font-family: 'Satisfy', cursive;
+article h4{
+	text-align:center;
+	font-family: 'Satisfy', cursive;
 		
 		}
-		*/
+article h5{
+	text-align:center;
+	font-family: 'Satisfy', cursive;
 		
-	/*article p {
-		display:block;
-		margin: 0 auto;
-		width:600px;
-		font-family:'Sorts Mill Goudy', serif;
-		}	*/
+		}
+		
+article p {
+	display:block;
+	margin: 0 auto;
+	width:600px;
+	font-family:'Sorts Mill Goudy', serif;
+		}	
 	
 .article {
-	background-color:#FFFEB4;
+	background-color:lemonchiffon;
 	width:900px;
 	display: block;
 	margin:0 auto;
 	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
 	
 	}
 	
-	/*Start Contact Page Styling*/
-	.contact{
+	/*start Contact Page Styling*/
+
+.contact{
 	float:left;
 	width:300px;
+	display:block;
+
 		}
-	h4{
+h4{
 	font-family:'Satisfy', cursive;
 	font-size:30px;
+
 		}
+.get{
+	margin-left: 200px;
+	width:200px;
+}
 	/*.contact p{
 		font-family:'Sorts Mill Goudy', serif;
 		}*/
-	.contact ul li{
+
+.contact ul{
+	padding:0;
+}
+
+.contact ul li{
 	font-family:'Sorts Mill Goudy', serif;
-	font-size:20px;
+	font-size:15px;
 	list-style-type:none;
+	margin-left:200px; 
+	width:300px;
 		}
-	.button {
-    background-color:#FDED9A;
+
+.button {
+    background-color: black;
     border: none;
-    color: black;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -148,12 +162,65 @@ footer {
 	border-radius: 4px;
 	clear:both;
 		}	
-	.ttt{
+.ttt{
 	margin:0px;
 	padding:0px;
 	font-family:'Sorts Mill Goudy', serif;
 	width:300px;
+	display: inline-block;
+	margin-left:300px;
+     }
+.wrapper {
+	width:100%;
+	background-color:lemonchiffon;
+	margin-top:50px;
+		
 		}
-	.wrapper {
-		width:100%;
-		}
+/*Start Honey page styling*/
+
+.sage{
+	margin-top:50px;
+	margin-left: 50px;
+	margin-bottom:40px;
+	background-color: lemonchiffon;
+	padding-left:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:325px;
+	height:540px;
+	overflow: scroll;
+}
+
+h5 {
+	font-family: 'Satisfy', cursive;
+	font-size: 20px;
+	line-height:0;
+	}
+h6 {
+		
+	width:300px;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size: 13px;
+	line-height:2;
+}
+.honey img{
+	position:absolute;
+	top:185px;
+	left:440px;
+	margin-bottom: 300px;
+	width:430px;
+}
+.product img{
+	position:absolute;
+	top:508px;
+	left:440px;
+	width:350px;
+}
+
+.jar img{
+	position:absolute;
+	top:185px;
+	left:800px;
+	width:390px;
+}
+
